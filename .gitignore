@@ -1,0 +1,29 @@
+# Node.js dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# Rust build artifacts
+target/
+Cargo.lock
+
+# Solana config files
+.solana/
+.keys/
+
+# Anchor build artifacts
+.anchor/
+target/
+.docker/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs & temporary files
+*.log
+*.out
+*.tmp
+.DS_Store
+
