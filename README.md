@@ -24,7 +24,7 @@ Pastikan Anda sudah menginstal **Rust**, **Solana CLI**, dan **Anchor**:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Install Solana CLI
-sh -c "$(curl -sSfL https://release.solana.com/stable/install)"
+curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash"
 
 # Install Anchor
 cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
@@ -34,7 +34,7 @@ avm use latest
 
 ### 2️⃣ Clone Repository
 ```bash
-git clone https://github.com/username/solana-voting.git
+git clone https://github.com/bebeksalju/solana-voting.git
 cd solana-voting
 ```
 
