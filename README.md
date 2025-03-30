@@ -24,7 +24,7 @@ Pastikan Anda sudah menginstal **Rust**, **Solana CLI**, dan **Anchor**:
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Install Solana CLI
-curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash"
+curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
 
 # Install Anchor
 cargo install --git https://github.com/coral-xyz/anchor avm --locked --force
